@@ -1,7 +1,7 @@
 $site = Read-Host "Digite o site: "
 if (!$site){
     echo "Parse URI - By: Igor Pinheiro"
-    echo "Sinte não encontrado!"
+    echo "Site não encontrado!"
     echo "Execute novamente e digite o site"
 }else{
     try{
